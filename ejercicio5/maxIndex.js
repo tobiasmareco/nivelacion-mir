@@ -7,11 +7,11 @@
 function maxIndexNumber(data) {
     if (data.length > 1) {
         let maxNum = 0;
-        let index = null;
+        let index;
         for (let i = 0; i < data.length; i++) {
             if (data[i] > maxNum) {
                 maxNum = data[i];
-                index = data.indexOf(data[i]);
+                index = i;
             }
         }
         return `El mayor es: ${maxNum} ,posicion: ${index}`;

@@ -4,9 +4,9 @@ function calcSum(num) {
         n = n + i;
         // n += i;
     };
-    console.log(n);
+    return n;
 };
 
-calcSum(4);
-calcSum(10);
-calcSum(15);
+console.log(calcSum(4));
+console.log(calcSum(10));
+console.log(calcSum(15));
