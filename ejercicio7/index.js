@@ -1,7 +1,3 @@
-let receta = {
-    nombre: 'sandwich',
-    ingredientes: []
-};
 // receta.ingredientes[0] = {
 //     nombre: 'pan',
 //     cantidad: 2
@@ -10,6 +6,11 @@ let receta = {
 //     nombre: 'queso',
 //     cantidad: 1
 // };
+let receta = {
+};
+receta.nombre = 'sandwich';
+receta.ingredientes = [];
+
 receta.ingredientes.push({ nombre: 'Pan', cantidad: 2 });
 receta.ingredientes.push({ nombre: 'Queso', cantidad: 1 });
 console.log(receta);
